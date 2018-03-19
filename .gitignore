@@ -198,3 +198,10 @@ venv.bak/
 
 /beswican/tests/.pytest_cache/
 /.idea/beswican.iml
+.idea/inspectionProfiles/
+.idea/markdown-exported-files.xml
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/
+.idea/misc.xml
+.idea/modules.xml
+/.idea/vcs.xml
