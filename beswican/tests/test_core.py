@@ -10,7 +10,7 @@ class CoreTests(object):
 
     def test_get_single_word(self):
         word = phrase_generator.sample(sample_data)
-        assert not word in sample_data
+        assert word in sample_data
 
     def test_get_multiple_words(self):
         words = phrase_generator.sample(sample_data, 2)
