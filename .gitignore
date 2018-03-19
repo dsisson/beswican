@@ -197,3 +197,4 @@ venv.bak/
 .mypy_cache/
 
 /beswican/tests/.pytest_cache/
+/.idea/beswican.iml
