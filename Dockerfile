@@ -1,5 +1,5 @@
-FROM python:3.6.1
-# alpine:3.5
+FROM alpine:3.5
+# python:3.6.1
 
 # Create the working directory (and set it as the working directory)
 RUN mkdir -p /beswican
