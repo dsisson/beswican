@@ -10,6 +10,7 @@ WORKDIR /beswican
 # re-install all python packages defined in requirements.txt
 # whenever any source code change is made)
 COPY requirements.txt /beswican
+RUN apk add --update python py-pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the source code into the container
