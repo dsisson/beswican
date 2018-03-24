@@ -10,12 +10,12 @@ WORKDIR /beswican
 # re-install all python packages defined in requirements.txt
 # whenever any source code change is made)
 COPY requirements.txt /beswican
-RUN apk add --update python py-pip
-RUN pip install --no-cache-dir -r requirements.txt
+#RUN apk add --update python3 py-pip
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Copy the source code into the container
 COPY . /beswican
 
-RUN pip3 install -r requirements.txt
+#RUN pip3 install -r requirements.txt
 
 CMD python3 runserver.py
