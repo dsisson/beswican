@@ -1,7 +1,7 @@
 FROM alpine:3.5
 # python:3.6.1
 
-RUN apk --update python3
+RUN apk add --update python3
 #RUN apk add --update python3 py-pip
 
 # Create the working directory (and set it as the working directory)
