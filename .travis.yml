@@ -3,7 +3,10 @@ sudo: required
 services:
   - docker
 
-language: python3
+language: python
+
+python:
+  - "3.6"
 
 script:
   - pytest beswican/tests -m core
