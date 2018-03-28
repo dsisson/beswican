@@ -4,3 +4,4 @@ __beswican__ is an example Flask app used for illustrating testing strategies an
 
 [![Build Status](https://travis-ci.org/dsisson/beswican.svg?branch=master)](https://travis-ci.org/dsisson/beswican)
 
+The beswican app can be found on Heroku at [https://peaceful-fortress-28451.herokuapp.com/]
