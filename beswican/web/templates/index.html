@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet"
+              href="{{ url_for('web.static', filename='style.css') }}"/>
+        <title>Beswican, a Test Target</title>
+        <style type="text/css">
+            /* BASIC TYPOGRAPHY  from https://github.com/oxalorg/sakura              */
+            html {
+              font-size: 62.5%;
+              font-family: serif;
+            }
+            body {
+              font-size: 1.8rem;
+              line-height: 1.618;
+              max-width: 38em;
+              margin: auto;
+              color: #4a4a4a;
+              background-color: #f9f9f9;
+              padding: 13px;
+            }
+            @media (max-width: 684px) {
+              body {font-size: 1.53rem;}
+            }
+            @media (max-width: 382px) {
+              body {font-size: 1.35rem;}
+            }
+            h1, h2, h3 {
+              line-height: 1.1;
+              font-family: Verdana, Geneva, sans-serif;
+              font-weight: 700;
+              overflow-wrap: break-word;
+              word-wrap: break-word;
+              -ms-word-break: break-all;
+              word-break: normal;
+              -ms-hyphens: auto;
+              -moz-hyphens: auto;
+              -webkit-hyphens: auto;
+              hyphens: auto;
+            }
+            h1 {font-size: 2.20em;}
+            h2 {font-size: 1.8em;}
+            h3 {font-size: 1.65em;}
+
+            /* Pre and Code */
+            pre {
+              background-color: #f1f1f1;
+              display: block;
+              padding: 1em;
+              overflow-x: auto; }
+        </style>
+    </head>
+
+    <body>
+        <h1>Beswican, a Test Target</h1>
+        <p><strong><em>Beswican</em></strong> is a sample application used for demonstrating test techniques and test automation strategies. Source can be found at <a href="https://github.com/dsisson/beswican">https://github.com/dsisson/beswican</a>.</p>
+
+        <h2>Phrase Generator Output</h2>
+        <p>The line below displays an automatically-generated phrase on page load or refresh:</p>
+        <pre>{{ phrase }}</pre>
+    </body>
+</html>
